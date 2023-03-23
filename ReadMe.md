@@ -16,7 +16,12 @@ In This Job Player Work As A developer There is many places Where We setup some 
 
 This job is Inspire By Electrician Job - By Spinks 
 
-you can add items as reward for completing job in ef-files/ef_server.lua line no. 14,15,16,17
+you can add items as reward for completing job in **ef-files/ef_server.lua line no. 14,15,16,17**
+
+
+
+Make a folder on your rescouce folder named [EF] and paste ef-developer file 
+make sure u have to ensure in **server.cfg**
 
 
 dependency  👇👇
