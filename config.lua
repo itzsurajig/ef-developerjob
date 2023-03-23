@@ -1,5 +1,3 @@
-print("^2cfx.reMonitor ^2EF^7-^2Developer v^41^7.^40 ^7- ^2Script Made By- ^1EF-PRODUCTIONS^7")
-
 Config = Config or {}
 
 Config.ShowBlip = true
