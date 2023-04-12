@@ -48,7 +48,7 @@ local function SetWorkBlip(d)
         EndTextCommandSetBlipName(WorkBlip)
         table.insert(JobsinSession, {id = k, x = v.coords.x, y = v.coords.y, z = v.coords.z, BlipId = WorkBlip})
     end
-    TriggerEvent('ef-developer:client:Job')
+    TriggerEvent('ef-developerjob:client:Job')
 end
 
 
@@ -70,10 +70,10 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
     PlayerJob = QBCore.Functions.GetPlayerData().job
 end)
 
-RegisterNetEvent('ef-developer:client:VehPick', function()
+RegisterNetEvent('ef-developerjob:client:VehPick', function()
     local choice = math.random(1, #Config.JobVehicles)
     ElecVeh = Config.JobVehicles[choice]
-    TriggerEvent('ef-developer:client:SpawnVehicle', ElecVeh)
+    TriggerEvent('ef-developerjob:client:SpawnVehicle', ElecVeh)
 end)
 
 
@@ -122,7 +122,7 @@ CreateThread(function()
 end)
 
 
-RegisterNetEvent('ef-developer:client:SpawnVehicle', function(vehicleInfo)
+RegisterNetEvent('ef-developerjob:client:SpawnVehicle', function(vehicleInfo)
     local coords = Config.Locations["vehicle"].coords
     QBCore.Functions.SpawnVehicle(vehicleInfo, function(veh)
         SetVehicleNumberPlateText(veh, "EF-DEV"..tostring(math.random(1000, 9999)))
@@ -148,7 +148,7 @@ function StartJob()
 end
 
 
-RegisterNetEvent('ef-developer:client:Job', function(k, v)
+RegisterNetEvent('ef-developerjob:client:Job', function(k, v)
     local inRange = false
     CompleteRepairs = 0
     while true do
@@ -177,11 +177,11 @@ RegisterNetEvent('ef-developer:client:Job', function(k, v)
                                     print(CompleteRepairs)
                                     if CompleteRepairs <= 4 then
                                         exports['mythic_notify']:DoHudText('inform', 'Good job </Developer>!')
-                                        TriggerServerEvent("ef-developer:server:Reward"); 
-                                        TriggerServerEvent("ef-developer:server:Payslip");
+                                        TriggerServerEvent("ef-developerjob:server:Reward"); 
+                                        TriggerServerEvent("ef-developerjob:server:Payslip");
                                     else 
                                         exports['mythic_notify']:DoHudText('inform', 'EF Software Installation Completed')
-                                        TriggerServerEvent("ef-developer:server:Payslip");
+                                        TriggerServerEvent("ef-developerjob:server:Payslip");
                                     end
                                     RemoveBlip(v.BlipId)
                                     table.remove(JobsinSession, k)
