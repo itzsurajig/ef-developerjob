@@ -1,13 +1,13 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-RegisterNetEvent('ef-developer:server:Payslip', function(drops)
+RegisterNetEvent('ef-developerjob:server:Payslip', function(drops)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     Player.Functions.AddMoney("cash", 490, "developer")
     TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'EF-PAY $490 To Your Bank Account!'})
 end)
 
-RegisterNetEvent('ef-developer:server:Reward', function(drops)
+RegisterNetEvent('ef-developerjob:server:Reward', function(drops)
     local chance = math.random(1,100)
     if chance < 25 then
         local xPlayer = QBCore.Functions.GetPlayer(tonumber(source))
