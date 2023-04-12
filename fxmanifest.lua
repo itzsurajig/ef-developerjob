@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'EF-Productions'
-desciption 'Script Made By BlasterSuraj#4406'
+desciption 'EF-DeveloperJob Script Made By BlasterSuraj#4406'
 discord 'https://discord.gg/HGzjtD846H'
 
 shared_script 'config.lua'
