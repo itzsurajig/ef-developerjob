@@ -5,7 +5,7 @@ CreateThread(function()
         options = {
             {
                 type = "client",
-                event = "ef-developer:client:VehPick",
+                event = "ef-developerjob:client:VehPick",
                 icon = "fas fa-car",
                 label = "Start work",
             },
