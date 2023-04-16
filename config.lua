@@ -14,6 +14,10 @@ Config.DistanceSpawn = 20.0
 
 Config.MinusOne = true 
 
+Config.JobVehicles = {
+    [1] = 'rumpo2',
+}
+
 
 Config.Locations = {
     ["job"] = {
@@ -27,7 +31,7 @@ Config.Locations = {
     },
    
     
-    ["jobset1"] = {
+    ["devwork"] = {
         [1] = {
             name = "Fix Software",
             coords = vector4(378.78, 332.97, 103.57, 309.04),
@@ -46,7 +50,7 @@ Config.Locations = {
         },
         
     },
-    ["jobset2"] = {
+    ["devwork2"] = {
         [1] = {
             name = "Fix Software",
             coords = vector4(-1828.19, 797.85, 138.18, 123.95),
@@ -64,7 +68,7 @@ Config.Locations = {
             coords = vector4(-1062.81, -248.37, 44.02, 264.97),
         },
     },
-    ["jobset3"] = {
+    ["devwork3"] = {
         [1] = {
             name = "Fix Software",
             coords = vector4(-806.5, 167.58, 76.74, 185.64),
@@ -82,7 +86,7 @@ Config.Locations = {
             coords = vector4(1706.23, 4921.51, 42.06, 313.55),
         },
     },
-    ["jobset4"] = {
+    ["devwork4"] = {
         [1] = {
             name = "Fix Software",
             coords = vector4(1735.3, 6420.43, 35.04, 332.3),
@@ -111,22 +115,12 @@ Config.Locations = {
     
 }
 
-Config.JobVehicles = {
-    [1] = 'rumpo2',
-}
-
-
-
 
 
 Config.GenderNumbers = {
 	['male'] = 4,
 	['female'] = 5
 }
-
-
-
-
 
 Config.PedList = {
 
@@ -139,4 +133,3 @@ Config.PedList = {
 
 	
 }
-	
