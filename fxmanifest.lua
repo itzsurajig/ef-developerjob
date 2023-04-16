@@ -18,6 +18,7 @@ escrow_ignore {
     'ef-files/ef_client.lua',
     'ef-files/ef_server.lua',
     'ef-files/ef_targets.lua',
+    'config.lua',
 }   
 
 dependency 'mythic_notify'
