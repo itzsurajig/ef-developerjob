@@ -6,7 +6,7 @@ Highly Optimized Script
 
 Always There For Support
 
-ᴇғ ᴘʀᴏᴅᴜᴄᴛɪᴏɴs™ : https://discord.gg/HGzjtD846H
+ᴇғ ᴘʀᴏᴅᴜᴄᴛɪᴏɴs™ : https://discord.gg/WbDp5GQ45t
 
 
 Join Discord For More Free Scripts
