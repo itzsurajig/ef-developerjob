@@ -6,7 +6,7 @@ Highly Optimized Script
 
 Always There For Support
 
-<h1>Free Download</h1> ➤ https://ef-productions.tebex.io/package/5636776
+<h1>Free Download</h1> ➤ https://ef-development.tebex.io/package/5636776
 
 ᴇғ ᴘʀᴏᴅᴜᴄᴛɪᴏɴs™ : https://discord.gg/WbDp5GQ45t
 
